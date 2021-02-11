@@ -58,7 +58,7 @@ function buildCharts(sample) {
     //Set title and margins bar chart
     var barLayout ={
       title: "Top 10 Cultures Found",
-      margin: {t: 60, l: 150}  
+      margin: {t: 30, l: 75}  
     };
 
     Plotly.newPlot("bar", barData, barLayout);
